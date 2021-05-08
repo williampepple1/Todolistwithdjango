@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-zdwpu#@dcq-=pil9+%*3j!ujfx@0b!y0e3^9-)m8af(nj&)w&a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -133,3 +133,5 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
